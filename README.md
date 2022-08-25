@@ -24,4 +24,6 @@ The code endpoint runs well and shows successful response code 200 ok.
 
 4.My endpoint URL below for the running elastic beanstalk deployment (EB_URL) has been submitted along with the project submission. Endpoint URL = http://imagefilterservice-dev.us-east-1.elasticbeanstalk.com
 
-5.This endpoint responds to valid GET requests like: http://{{EB_URL}}/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg that is:http://imagefilterservice-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
+5.This endpoint responds to valid GET requests like: http://{{EB_URL}}/filteredimage?image_url=https://images.pexels.com/photos/12185637/pexels-photo-12185637.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load that is:
+
+http://imagefilterservice-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://images.pexels.com/photos/12185637/pexels-photo-12185637.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
